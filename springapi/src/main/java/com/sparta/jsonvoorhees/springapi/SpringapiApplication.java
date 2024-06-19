@@ -16,12 +16,13 @@ public class SpringapiApplication {
 
 	}
 	
-//	@Bean
-//	CommandLineRunner runner(RoleUserRepository roleUserRepository, PasswordEncoder passwordEncoder) {
-//		return args -> {
-//			roleUserRepository.save(new RoleUser("user", passwordEncoder.encode("password"), "ROLE_USER"));
-//			roleUserRepository.save(new RoleUser("admin", passwordEncoder.encode("password"), "ROLE_USER,ROLE_ADMIN"));
-//		};
-//	}
+	//This needs to be enabled for the first run, but not afterwards
+	// @Bean
+	// CommandLineRunner runner(RoleUserRepository roleUserRepository, PasswordEncoder passwordEncoder) {
+	// 	return args -> {
+	// 		roleUserRepository.save(new RoleUser("user", passwordEncoder.encode("password"), "ROLE_USER"));
+	// 		roleUserRepository.save(new RoleUser("admin", passwordEncoder.encode("password"), "ROLE_USER,ROLE_ADMIN"));
+	// 	};
+	// }
 
 }
