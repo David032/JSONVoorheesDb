@@ -16,7 +16,7 @@ public class SpringapiApplication {
 
 	}
 	
-	//This needs to be enabled for the first run, but not afterwards
+	// This needs to be enabled for the first run, but not afterwards
 	// @Bean
 	// CommandLineRunner runner(RoleUserRepository roleUserRepository, PasswordEncoder passwordEncoder) {
 	// 	return args -> {
